@@ -1,0 +1,29 @@
+{
+    "dev": {
+            "logger_level": "'INFO",
+            "logger_output": "cheese",
+            "web_domain" : "http://dev.m.feifei.com:3000",
+            "img_root" : "http://img.feifei.cn",
+            "feifei_api": "http://open.feifei.com/api",
+            "solr_host": "192.168.30.180",
+            "solr_post": "8983"
+    },
+    "sit": {
+            "logger_level": "'INFO",
+            "logger_output": "cheese",
+            "web_domain" : "http://sit.m.feifei.com",
+            "img_root" : "http://img.feifei.cn",
+            "feifei_api": "http://open.feifei.com/api",
+            "solr_host": "192.168.30.180",
+            "solr_post": "8983"
+    },
+    "prd": {
+            "logger_level": "'INFO",
+            "logger_output": "cheese",
+            "web_domain" : "http://m.feifei.com",
+            "img_root" : "http://img.feifei.cn",
+            "feifei_api": "http://open.feifei.com/api",
+            "solr_host": "192.168.30.180",
+            "solr_post": "8983"
+    }
+}
